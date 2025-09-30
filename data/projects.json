@@ -1,0 +1,47 @@
+[
+  {
+    "id": "campus-connect",
+    "title": "Campus Connect",
+    "slug": "campus-connect",
+    "shortDescription": "MERN stack application to enhance campus communication and academic management.",
+    "longDescription": "Developed CampusConnect using React, Node.js, Express, and MongoDB to streamline campus communication. Implemented role-based access control with JWT, real-time attendance tracking, and exam results management. Focused on secure authentication, clear UX for admin/students/faculty, and scalable APIs.",
+    "techStack": ["ReactJS", "Node.js", "Express", "MongoDB", "JWT"],
+    "features": ["Role-based access control", "Real-time attendance", "Exam results management", "Responsive dashboard"],
+    "liveUrl": "https://campus-connect-new.vercel.app/",
+    "repoUrl": "https://github.com/BhanuNama?tab=repositories",
+    "images": [{"src":"/assets/projects/campus-connect-1.png","alt":"Campus Connect dashboard screenshot"}],
+    "year": "2024",
+    "role": "Full Stack Developer",
+    "metrics": {"users":"internal demo", "scale_notes":"Designed for 1000+ students per institution"}
+  },
+  {
+    "id": "nutri-guide",
+    "title": "Nutri Guide",
+    "slug": "nutri-guide",
+    "shortDescription": "AI-powered meal planner and nutrition analytics web app.",
+    "longDescription": "Engineered NutriGuide, a full-stack AI web app generating personalized meal plans using Gemini API for natural language understanding. Implemented dynamic meal scheduling with macro breakdowns, Chart.js visual analytics, and JWT-based authentication. Built Mindful Eating Score, Food Doctor, and AI-generated recipes with timers and macro charts.",
+    "techStack": ["ReactJS", "MongoDB", "Node.js", "Express", "Gemini API", "Chart.js", "Tailwind CSS"],
+    "features": ["Personalized meal plans", "Macro breakdown charts", "AI recipe generator", "User profiles & persistence"],
+    "liveUrl": "https://neutri-guide.vercel.app/",
+    "repoUrl": "https://github.com/BhanuNama?tab=repositories",
+    "images": [{"src":"/assets/projects/nutri-guide-1.png","alt":"Nutri Guide dashboard showing macro chart"}],
+    "year": "2025",
+    "role": "Full Stack + AI Integration",
+    "metrics": {"users":"internal", "planning_features":"AI-based meal suggestions"}
+  },
+  {
+    "id": "fakebuster",
+    "title": "FakeBuster",
+    "slug": "fakebuster",
+    "shortDescription": "Full-stack multi-modal deepfake detection platform (video, image, audio).",
+    "longDescription": "Built FakeBuster using React, TypeScript, FastAPI, and Python ML models to detect deepfakes across video, image and audio. Implemented a multi-modal pipeline: XceptionNet (video), Vision Transformer + CLIP (image), and RawNet2 + Wav2Vec2.0 (audio). Created a responsive dashboard with drag-and-drop uploads, heatmaps, spectrograms, confidence gauges, and sub-5-second media processing in optimized environment.",
+    "techStack": ["React", "TypeScript", "FastAPI", "Python", "XceptionNet", "Vision Transformer", "RawNet2", "Wav2Vec2.0"],
+    "features": ["Multi-modal detection", "Interactive visualizations", "Drag-and-drop upload", "Real-time analytics"],
+    "liveUrl": null,
+    "repoUrl": "https://github.com/BhanuNama?tab=repositories",
+    "images": [{"src":"/assets/projects/fakebuster-1.png","alt":"FakeBuster interface showing spectrogram and confidence gauge"}],
+    "year": "2025",
+    "role": "Full Stack + ML Engineer",
+    "metrics": {"accuracy":"98.7%","avg_processing_time":"<5s (optimized pipeline)"}
+  }
+]
